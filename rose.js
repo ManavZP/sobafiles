@@ -5,11 +5,13 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const fileCode = loginForm.fileCode.value;
 
-    if (fileCode === "The Bear") {
-        alert("You have successfully logged in.");
-        window.open("bennyProfile.html", "blank_");
-    } else {
+    if (fileCode === "928357023958923042") {
+        window.open("sophieDoss.html", "blank_");
+    } else if(fileCode === "7773423428"){
+        window.open("decryptEmails.html", "blank_");
+    }
+    else {
         console.log(fileCode);
-        alert("get out");
+        alert("Invalid File Code");
     }
 })

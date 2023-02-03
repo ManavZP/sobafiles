@@ -1,0 +1,110 @@
+html{
+    /*background-color: purple;*/
+}
+body{
+    /*background-color: purple;*/
+}
+p{
+    font-family:'Montserrat', sans-serif, cursive ;
+}
+h1{
+    /*color: rgb(34, 184, 132);*/
+    color: purple;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+}
+h2{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 20px;
+}
+h3{
+    font-family:'Montserrat', sans-serif, cursive ;
+}
+
+.emailMock{
+    background-color: rgb(75, 211, 197);
+    border-style: solid;
+    padding: 5px;
+    border-width: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.emailInside{
+    background-color: rgb(159, 99, 159);
+    padding: 10px;
+    color: whitesmoke;
+    margin: 20px;
+    border-radius: 10px;
+}
+.from{
+    height: 50px;
+    width: 33%;
+    padding: 10px;
+}
+.from > p{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+a:focus{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    outline-color: black;
+
+}
+a{
+    color: black;
+}
+a:hover{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 0px;
+    font-size: 20px;
+    color: purple;
+    text-decoration: none;
+    outline-color: black;
+}
+
+.subject{
+    height: 50px;
+    width: 33%;
+    padding: 10px;
+}
+.subject > p{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+}
+.content{
+    height: 50px;
+    width: 33%;
+    padding: 10px;
+}
+.content > p{
+    font-family:'Montserrat', sans-serif, cursive ;
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.login-form-field{
+    margin-bottom: 20px;
+    font-family:'Montserrat', sans-serif, cursive ;
+    border-width: 2px;
+    
+}
+#login-form-submit{
+    font-family:'Montserrat', sans-serif, cursive ;
+    background-color: rgb(34, 184, 132);
+    color: purple;
+}
